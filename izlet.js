@@ -6,3 +6,5 @@ let budzet = Number(prompt("budžet:"));
 let trosak = cijena * broj;
 let preostalo= budzet-trosak;
 let dovoljan_budzet= budzet>=trosak;
+let tocan_broj= budzet== trosak;
+let nastavak = confirm("Želiš li nastaviti dalje?");
