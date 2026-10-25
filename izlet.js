@@ -15,3 +15,12 @@ console.log("Preostali iznos: " + preostalo + "€");
 console.log("Dovoljno novca: " + dovoljan_budzet);
 console.log("Točan iznos: " + tocan_broj);
 console.log("Nastavak: " + nastavak); 
+
+alert(
+    "Ime: " + ime + "\n" +
+    "Ukupni trosak: " + trosak + " €\n" +
+    "Preostali iznos: " + preostalo + " €\n" +
+    "Dovoljno novca: " + dovoljan_budzet + "\n" +
+    "Tocan iznos: " + tocan_broj + "\n" +
+    "Nastavak planiranja: " + nastavak
+);
