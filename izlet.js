@@ -8,3 +8,10 @@ let preostalo= budzet-trosak;
 let dovoljan_budzet= budzet>=trosak;
 let tocan_broj= budzet== trosak;
 let nastavak = confirm("Želiš li nastaviti dalje?");
+
+console.log("ime: +ime");
+console.log("Ukupni trošak:" +trosak +"€");
+console.log("Preostali iznos: "+ preostalo+"€");
+console.log("Dovoljno novca: "+ dovoljan_budzet);
+console.log("Točan iznos: "+tocan_broj);
+console.log("Nastavak: "+nastavak); 
